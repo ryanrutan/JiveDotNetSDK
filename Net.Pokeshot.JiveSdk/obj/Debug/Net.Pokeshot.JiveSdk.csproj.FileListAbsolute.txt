@@ -1,0 +1,10 @@
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\Net.Pokeshot.JiveSdk.dll.config
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\Net.Pokeshot.JiveSdk.dll
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\Net.Pokeshot.JiveSdk.pdb
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\EntityFramework.dll
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\EntityFramework.xml
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\obj\Debug\Net.Pokeshot.JiveSdk.csprojResolveAssemblyReference.cache
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\obj\Debug\Net.Pokeshot.JiveSdk.dll
+c:\users\nils\documents\visual studio 2013\Projects\Net.Pokeshot.JiveSdk\Net.Pokeshot.JiveSdk\obj\Debug\Net.Pokeshot.JiveSdk.pdb

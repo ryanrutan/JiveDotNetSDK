@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC8DA9F2-6C2D-4BD2-9623-F4B7E20C3AA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Net.Pokeshot.JiveSdk</RootNamespace>
+    <AssemblyName>Net.Pokeshot.JiveSdk</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth\SignedRequest.cs" />
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\Dto\JiveAddonRegistrationDto.cs" />
+    <Compile Include="Models\Dto\OAuthGrantTokenDto.cs" />
+    <Compile Include="Models\Dto\OAuthRequestDto.cs" />
+    <Compile Include="Models\Dto\UserDto.cs" />
+    <Compile Include="Models\Dto\WebhookActivityDto.cs" />
+    <Compile Include="Models\Dto\WorkflowDefinitionDto.cs" />
+    <Compile Include="Models\JiveAddon.cs" />
+    <Compile Include="Models\JiveAddonRegistration.cs" />
+    <Compile Include="Models\JiveContent.cs" />
+    <Compile Include="Models\JiveInstance.cs" />
+    <Compile Include="Models\JivePlace.cs" />
+    <Compile Include="Models\JiveResources.cs" />
+    <Compile Include="Models\JiveSdkContext.cs" />
+    <Compile Include="Models\JiveTileInstance.cs" />
+    <Compile Include="Models\JiveTileRegistration.cs" />
+    <Compile Include="Models\OAuthRequest.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Dto\WebhookDto.cs" />
+    <Compile Include="Models\Webhook.cs" />
+    <Compile Include="Models\WebhookActivity.cs" />
+    <Compile Include="Models\Workflow.cs" />
+    <Compile Include="Models\WorkflowDefinition.cs" />
+    <Compile Include="Models\WorkflowInstance.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
